@@ -244,6 +244,7 @@ main {
   }
 
   .hero-content {
+    padding: 0 0 3rem;
     gap: 6rem;
   }
 }
@@ -291,10 +292,6 @@ main {
 }
 
 @media (min-width: 1440px) {
-  .hero-content {
-    padding: 12rem 0 0;
-  }
-
   .hero-content .hero-title {
     font-size: 8.6rem;
   }
