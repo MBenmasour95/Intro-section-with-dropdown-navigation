@@ -16,6 +16,12 @@ function handleClink(e) {
   if (target.classList.contains("drop-btn")) {
     target.classList.toggle("clicked");
     target.nextElementSibling.classList.toggle("dropped");
+
+    if (target.classList.contains("clicked")) {
+      target.querySelector("img").src = "./images/icon-arrow-up.svg";
+    } else {
+      target.querySelector("img").src = "./images/icon-arrow-down.svg";
+    }
   } else if (target.classList.contains("menu-btn")) {
     target.parentElement.querySelector(".nav-items").classList.add("fadeIn");
     document.body.style.overflow = "hidden";
