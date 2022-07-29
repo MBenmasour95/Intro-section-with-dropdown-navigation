@@ -238,6 +238,16 @@ main {
   gap: 4rem;
 }
 
+@media (min-width: 1440px) and (min-height: 800px) {
+  .hero-wrapper {
+    height: 90%;
+  }
+
+  .hero-content {
+    gap: 6rem;
+  }
+}
+
 .hero-content .hero-title {
   font-size: 8rem;
 }
