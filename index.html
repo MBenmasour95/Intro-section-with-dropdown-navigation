@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Title -->
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav id="navbar" class="navbar">
+        <a href="#" class="nav-logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </a>
+
+        <ul class="nav-items">
+          <button class="close-btn">
+            <img src="./images/icon-close-menu.svg" alt="close" />
+          </button>
+          <li class="nav-item dropdown">
+            <button class="drop-btn">
+              Features
+              <img src="./images/icon-arrow-down.svg" alt="icon" />
+            </button>
+
+            <ul class="dropdown-items">
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link">
+                  <img src="./images/icon-todo.svg" alt="icon" />
+                  Todo Link
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link">
+                  <img src="./images/icon-calendar.svg" alt="icon" />
+                  Calendar
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link">
+                  <img src="./images/icon-reminders.svg" alt="icon" />
+                  Reminders
+                </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link">
+                  <img src="./images/icon-planning.svg" alt="icon" />
+                  Planning
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <button class="drop-btn">
+              Company
+              <img src="./images/icon-arrow-down.svg" alt="icon" />
+            </button>
+
+            <ul class="dropdown-items">
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link"> History </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link"> Our Team </a>
+              </li>
+              <li class="dropdown-item">
+                <a href="#" class="dropdown-link"> Blog </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item login">
+            <a href="#" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item register">
+            <a href="#" class="nav-link">Register</a>
+          </li>
+        </ul>
+        <button class="menu-btn">
+          <img src="./images/icon-menu.svg" alt="menu" />
+        </button>
+      </nav>
+    </header>
+    <!-- End of Navbar -->
+
+    <!-- Hero -->
+    <main>
+      <section class="hero-wrapper">
+        <div class="hero-content">
+          <h1 class="hero-title">Make remote work</h1>
+          <p class="hero-desc">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="hero-btn">Learn more</button>
+          <div class="hero-brands">
+            <img src="./images/client-databiz.svg" class="brand" alt="brand" />
+            <img
+              src="./images/client-audiophile.svg"
+              class="brand"
+              alt="brand"
+            />
+            <img src="./images/client-meet.svg" class="brand" alt="brand" />
+            <img src="./images/client-maker.svg" class="brand" alt="brand" />
+          </div>
+        </div>
+        <div class="hero-image">
+          <!-- <img src="./images/image-hero-desktop.png" alt="image" /> -->
+        </div>
+      </section>
+    </main>
+    <!-- End of Hero -->
+
+    <!-- Footer -->
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.frontendmentor.io/profile/MBenmasour95"
+        target="_blank"
+        >Mehdi95</a
+      >.
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- JS -->
+    <script src="./script.js"></script>
+  </body>
+</html>
